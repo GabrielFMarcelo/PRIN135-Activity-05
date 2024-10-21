@@ -25,3 +25,48 @@ footer {
     text-align: right;
     padding: 20px 50px;
 }
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 50px;
+}
+
+img {
+    height: auto;
+    width: 30%;
+    border-radius: 10px;
+}
+
+@media (min-width: 240px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 360px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 720px) {
+    img {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1080px) {
+    img {
+        width: 30%;
+    }
+}
